@@ -4,7 +4,12 @@ This PCB design is used as a breakout board for the MSP430FR2311, which can conv
 
 ## Schematic
 
-![alt text](https://github.com/RU09342/lab-2-blinking-leds-bubliss3/blob/master/Off_Board%20Blink/msp430G2553.png)
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/Schematic.PNG)
+
+## Final Design
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/PCB%20Top%20View.PNG) ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/PCB%20Bottom%20View.PNG)
+
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/3d%20View.PNG) ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/3d%20Back%20View.PNG)
 
 ### Bill of Materials
 
