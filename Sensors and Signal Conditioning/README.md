@@ -1,6 +1,21 @@
+# Sensors and Signal Conditioning
+
+The goal of this lab was to convert the analog signals given by the photoresistor, photodiode, and phototransistor into digital signals that the MSP can understand. 
+
+## Analog to Digital Converter
+The software portion of this lab focused heavily on the ADC. 
+
+## Diode
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2197.JPG)
+
+## Transistor
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2198.JPG)
+
+## Resistor
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2199.JPG)
 
 
-# OLD README
+# Instructions
 # Sensors and Signal Conditioning
 One of the biggest limitations of the microcontroller is the fact that it lives in a digital world. We need certain components to be able to translate the analog world to the digital world and vice-versa. In this lab, we need to be able to convert some electrical phenomena into something our microcontroller can understand. For this, we need a few building blocks to do this.
 
