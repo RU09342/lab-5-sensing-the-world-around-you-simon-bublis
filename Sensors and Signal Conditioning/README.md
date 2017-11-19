@@ -2,17 +2,32 @@
 
 The goal of this lab was to convert the analog signals given by the photoresistor, photodiode, and phototransistor into digital signals that the MSP can understand. 
 
-## Analog to Digital Converter
-The software portion of this lab focused heavily on the ADC. 
+## Hardware
+Three types of sensors were used to retreive analog signals from the physical world to be converted to digital signals. The three components each focused on three diferent characteristics:
 
-## Diode
+* Photodiode - Voltage
+* Phototrasnistor - Current
+* Photoresistor - Resistance
+
+## Software
+Once the physical circuit gets a voltage reading it needs to be converted using ADC so it can be understood 
+by the MSP. For this section both 10-bit and 12-bit resolution ADCs were utulized. 
+
+## Photodiode
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2197.JPG)
 
-## Transistor
+A light sensitive diode, or photodiode, was used as the voltage based sensor of this lab. Unlike the other two circuits built in this section, an op-amp was used in order to amplify the sensor's output. This was done to counteract the small output voltage of the sensor and to increase the range of ADC.
+
+## Phototransistor
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2198.JPG)
 
-## Resistor
+The phototransistor was a current based sensor and the circuit was constructed to show this. 
+The sensor acts as a switch for the circuit,open when exposed to bright light and closed when covered or in the dark. 
+
+## Photoresistor
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2199.JPG)
+
+The photoresistor is a light sensor that changes resistance as light gets brighter or darker. The output voltage of the circuit drops as brightness of the light decreases.
 
 
 # Instructions
