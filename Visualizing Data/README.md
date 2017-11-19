@@ -1,4 +1,27 @@
 # Visualizing Data
+
+The goal of this section of lab was to take the digital signals the were convereted by the ADC and visually display them. 
+
+The only board that can be used fot this section is the MSP430-FR6989 since it has the on-board LCD screen. The 6989 takes the analog value from the sensors, converts to digital using 12-bit ADC, and displays the digital reading.
+
+The showChar() function takes in a character that you want to display and an integer that acts as the location to display the character.
+
+```c
+    showChar('0',0);
+    showChar('0',1);
+    showChar('0',2);
+    showChar('0',3);
+    showChar('0',4);
+    showChar('0',5);
+    showChar('0',6);
+```
+The above code shows '0' being displayed on all 6 locations on the LCD display. 
+
+The circuit for this lab is the same as the one found in the "Signal and Conditioning" section for the photoresistor. The rest of the code for this section is also identical to the previous section with the addition of the new functions found in "LCDDriver.h".
+
+
+# Instructions
+# Visualizing Data
 In the next lab, we will start looking into how to take action on the information your microprocessor is receiving, for the last part of this lab, we will focus on visualizing the data. We will focus on three main methods of visualization. For each of these methods, you need to pick between 1-3 processors based on the part. As with Milestone 1, you will need to talk in this README about why you picked the processors you did (for one part, it is going to be painfully obvious). Overall, you should aim to use all five processors by the end of this part of the lab, however _YOU DO NOT NEED TO USE ALL FIVE FOR EACH PART_.
 
 ## RGB LED
