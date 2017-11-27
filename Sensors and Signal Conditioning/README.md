@@ -29,6 +29,11 @@ The sensor acts as a switch for the circuit,open when exposed to bright light an
 
 The photoresistor is a light sensor that changes resistance as light gets brighter or darker. The output voltage of the circuit drops as brightness of the light decreases.
 
+### Realterm Output: Lights On
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/PhotoresistorLightsOn.PNG)
+
+### Realterm Output: Lights Off
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/PhotoresistorLightsOff.PNG)
 
 # Instructions
 # Sensors and Signal Conditioning
