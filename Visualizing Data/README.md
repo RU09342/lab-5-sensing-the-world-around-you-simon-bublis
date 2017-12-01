@@ -17,6 +17,26 @@ The showChar() function takes in a character that you want to display and an int
 ```
 The above code shows '0' being displayed on all 6 locations on the LCD display. 
 
+The code below shows how to initialize the analog to digital converter. This is how the MSP can accept and understand the signals coming from the sensors. The code below shows a reference voltage of 2.5V.
+
+```c
+//Initialize ADC
+void ADCInit()
+{
+      REFCTL0=REFON + REFVSEL_2;           // Use a Ref Voltage of 2.5V
+      ADC12CTL0 = ADC12SHT0_2 | ADC12ON;   // Sampling time, S&H=16, ADC12 on
+      ADC12CTL1 = ADC12SHP;                // Use sampling timer, ADC12SC conversion start,clock=OSC
+      ADC12CTL2 |= ADC12RES_2;             // 12-bit conversion results
+      ADC12MCTL0 |= ADC12INCH_3;           // ADC input select
+      ADC12IER0 |= ADC12IE0;               // Enable ADC conversion complete interrupt
+      ADC12CTL0 |= ADC12ENC;               // Enable conversion
+      P1SEL0 |=BIT3;                       // Configure P1.3 for input channel 3
+      P1SEL1 |=BIT3;
+}
+```
+
+After the ADC is initialized, the number that is recieved (intger) is converted to a character so that it can be displayed on the LCD.
+
 The circuit for this lab is the same as the one found in the "Signal and Conditioning" section for the photoresistor. The rest of the code for this section is also identical to the previous section with the addition of the new functions found in "LCDDriver.h".
 
 
