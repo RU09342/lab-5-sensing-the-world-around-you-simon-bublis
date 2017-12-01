@@ -13,21 +13,34 @@ Three types of sensors were used to retreive analog signals from the physical wo
 Once the physical circuit gets a voltage reading it needs to be converted using ADC so it can be understood 
 by the MSP. For this section both 10-bit and 12-bit resolution ADCs were utulized. 
 
+## Hardware
 ## Photodiode
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2197.JPG)
 
 A light sensitive diode, or photodiode, was used as the voltage based sensor of this lab. Unlike the other two circuits built in this section, an op-amp was used in order to amplify the sensor's output. This was done to counteract the small output voltage of the sensor and to increase the range of ADC.
 
 ## Phototransistor
+
+The physically constructed circuit and schematic for the phototransistor can be seen below. This circuit was more difficult to test than the others and went through multiple iterations. 
+
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2198.JPG)
+
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/phototransch.JPG)
 
 The phototransistor was a current based sensor and the circuit was constructed to show this. 
 The sensor acts as a switch for the circuit,open when exposed to bright light and closed when covered or in the dark. 
 
 ## Photoresistor
+
+The contructed circut and schematic for the resistor can be seen below. Of the three circuits completed in this section. the resistor was the easiest to build and test.
+
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/IMG_2199.JPG)
 
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/photorsch.JPG)
+
 The photoresistor is a light sensor that changes resistance as light gets brighter or darker. The output voltage of the circuit drops as brightness of the light decreases.
+
+The results for the photoresistor testing are shown below. These figures are the realterm outputs that are returned when the lights are turned on or off. With the lights on the values returned are higher than those with the lights off. 
 
 ### Realterm Output: Lights On
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-simon-bublis/blob/master/PCB%20Design/Screenshots/PhotoresistorLightsOn.PNG)
